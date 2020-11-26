@@ -13,10 +13,10 @@ Run Node index.js to start the program `node index.js`
 This version of Mixed Messages ensures no message is repeated.\
 It was decided that a quick SQLite would be most efficient. It allows for quick getting and add of the previous quote.
 
-Three pieces of data is displayed.
+Three pieces of data is displayed.\
 Header - Containing the theme in ASCII format\
 Quote - The quote itself\
-Author - The person who created/said the quote\
+Author - The person who created/said the quote
 
 ## Can I add my own messages/quotes?
 It is simple to add your own or edit/delete pre-existing messages from the `messages.json` make sure to follow the same format.
