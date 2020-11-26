@@ -9,6 +9,7 @@
   "author": "Duck#9999",
   "license": "MIT",
   "dependencies": {
-    "sqlite": "^4.0.17"
+    "sqlite": "^4.0.17",
+    "sqlite3": "^5.0.0"
   }
 }
