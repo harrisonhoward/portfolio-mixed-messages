@@ -2,7 +2,15 @@ async function startProgram() {
     let messages = Object.values(require("./messages.json"));
     const SQLiteManager = require("./sqlite");
     const SQL = new SQLiteManager();
-    const title = "Your new inspirational quote";
+    const title =
+        "  _____                 _           _   _                   _    ____              _       \n" +
+        " |_   _|               (_)         | | (_)                 | |  \/ __ \\            | |      \n" +
+        "   | |  _ __  ___ _ __  _ _ __ __ _| |_ _  ___  _ __   __ _| | | |  | |_   _  ___ | |_ ___ \n" +
+        "   | | | \'_ \\\/ __| \'_ \\| | \'__\/ _` | __| |\/ _ \\| \'_ \\ \/ _` | | | |  | | | | |\/ _ \\| __\/ _ \\\n" +
+        "  _| |_| | | \\__ \\ |_) | | | | (_| | |_| | (_) | | | | (_| | | | |__| | |_| | (_) | ||  __\/\n" +
+        " |_____|_| |_|___\/ .__\/|_|_|  \\__,_|\\__|_|\\___\/|_| |_|\\__,_|_|  \\___\\_\\\\__,_|\\___\/ \\__\\___|\n" +
+        "                 | |                                                                       \n" +
+        "                 |_|                                                                       ";
 
     // Initialise the database
     SQL.init();
