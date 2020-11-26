@@ -36,7 +36,7 @@ module.exports = class SQLiteManager {
 
     addQuote(id, quote, author) {
         return new Promise(async (resolve, reject) => {
-            const previous = this.getQuote();
+            const previous = await this.getQuote();
             if (previous) {
                 this.db.run(
                     "UPDATE Previous SET message_id = $messageId, quote = $quote, author = $author " +
@@ -63,7 +63,7 @@ module.exports = class SQLiteManager {
                         $quote: quote,
                         $author: author
                     },
-                    (err) => {
+                    function (err) {
                         if (err) {
                             reject(err);
                             return;
