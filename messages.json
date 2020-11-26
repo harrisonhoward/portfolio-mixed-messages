@@ -1,0 +1,52 @@
+{
+    "1": {
+        "id": "1",
+        "quote": "To live is the rarest thing in the world. Most people exist, that is all",
+        "author": "Oscar Wilde"
+    },
+    "2": {
+        "id": "2",
+        "quote": "To succeed in life, you need two things: ignorance and confidence",
+        "author": "Mark Twain"
+    },
+    "3": {
+        "id": "3",
+        "quote": "The key to success is failure",
+        "author": "Michael Jordan"
+    },
+    "4": {
+        "id": "4",
+        "quote": "You don't have to be great to start, but you have to start to be great.",
+        "author": "Zig Ziglar"
+    },
+    "5": {
+        "id": "5",
+        "quote": "We are all broken, that's how the light gets in.",
+        "author": "Ernest Hemingway"
+    },
+    "6": {
+        "id": "6",
+        "quote": "If light is in your heart, you will find your way home.",
+        "author": "Rumi"
+    },
+    "7": {
+        "id": "7",
+        "quote": "The future belongs to those who believe in the beauty of their dreams.",
+        "author": "Eleanor Roosevelt"
+    },
+    "8": {
+        "id": "8",
+        "quote": "Give people high fives just for getting out of bed. Being a person is hard sometimes",
+        "author": "Kid President"
+    },
+    "9": {
+        "id": "9",
+        "quote": "I am prepared for the worst, but hope for the best",
+        "author": "Benjamin Disraeli"
+    },
+    "10": {
+        "id": "10",
+        "quote": "Blind belief in authority is the greatest enemy of truth.",
+        "author": "Albert Einstein"
+    }
+}
